@@ -8,5 +8,9 @@
   "main"         : "./lib/iap_verifier",
   "directories"  : {"lib"  : "./lib"},
   "repository"   : {"type" : "git",  "url": "https://github.com/pcrawfor/iap_verifier.git"},
-  "engines"      : {"node" : ">= 0.4.7"}
+  "engines"      : {"node" : ">= 0.4.7"},
+  "dependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "scripts": { "prepublish": "cake build" }
 }
