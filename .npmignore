@@ -2,6 +2,5 @@
 .git*
 *.md
 Makefile
-src/
 test/
 node_modules/
